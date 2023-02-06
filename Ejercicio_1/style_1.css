@@ -1,0 +1,26 @@
+:root {
+  font: 1em/1.3 Arial, Helvetica, sans-serif;
+}
+:root p {
+  color: #555;
+}
+:root a {
+  color: #cc3300;
+}
+:root #primero p {
+  color: #336699;
+}
+:root #primero em {
+  background-color: #ffffcc;
+  padding: 1em;
+}
+:root .especial {
+  background-color: #ffcc99;
+  border: 1px solid #ff9900;
+  padding: 1em;
+}
+:root .normal span {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style_1.css.map */

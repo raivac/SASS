@@ -1,0 +1,44 @@
+//colores
+$color-azul: blue;
+$color-amarillo: yellow;
+$color-rojo: red;
+$color-verde: green;
+
+//estilos
+$negrita: bold;
+$cursiva: italic;
+
+body {
+  h3,
+  .fondoamarillo {
+    background-color: $color-amarillo;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color-azul;
+  }
+
+  span.cursiva {
+    font-style: $cursiva;
+  }
+
+  div h1,
+  h2 {
+    background-color: $color-rojo;
+  }
+
+  table {
+    a {
+      color: $color-rojo;
+    }
+
+    tr > a {
+      color: $color-verde;
+    }
+
+    td > a {
+      font-weight: $negrita;
+    }
+  }
+}

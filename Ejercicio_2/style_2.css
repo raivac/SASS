@@ -1,0 +1,26 @@
+body h3,
+body .fondoamarillo {
+  background-color: yellow;
+}
+body a {
+  text-decoration: none;
+  color: blue;
+}
+body span.cursiva {
+  font-style: italic;
+}
+body div h1,
+body h2 {
+  background-color: red;
+}
+body table a {
+  color: red;
+}
+body table tr > a {
+  color: green;
+}
+body table td > a {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style_2.css.map */

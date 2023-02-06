@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body a {
+  text-decoration: none;
+  color: blue;
+}
+body h2 {
+  background-color: pink;
+}
+body div h1,
+body div h2 {
+  background-color: red;
+}
+body .fondoresaltado {
+  background-color: yellow;
+}
+body a.fondoresaltado {
+  background-color: orange;
+}
+body a:not(.fondoresaltado) {
+  background-color: green;
+}
+body span.cursiva {
+  font-style: italic;
+}
+body table tr:nth-child(2) {
+  font-weight: bold;
+}
+body table a[target] {
+  color: red;
+  text-decoration: underline;
+}
+body em + a {
+  color: grey;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=style_3.css.map */

@@ -1,0 +1,39 @@
+//colores
+$color-gris: #555;
+$color-azul: #336699;
+$color-rojo: #cc3300;
+$color-amarillo: #ffffcc;
+$color-dorado: #ffcc99;
+$color-naranja: #ff9900;
+
+:root {
+  font: 1em/1.3 Arial, Helvetica, sans-serif;
+  p {
+    color: $color-gris;
+  }
+  a {
+    color: $color-rojo;
+  }
+
+  #primero {
+    p {
+      color: $color-azul;
+    }
+    em {
+      background-color: $color-amarillo;
+      padding: 1em;
+    }
+  }
+
+  .especial {
+      background-color: $color-dorado;
+      border: 1px solid $color-naranja;
+      padding: 1em;
+  }
+
+  .normal {
+    span {
+      font-weight: bold;
+    }
+  }
+}

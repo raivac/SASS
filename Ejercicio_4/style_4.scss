@@ -1,0 +1,44 @@
+//colores
+
+$color-azul: blue;
+$color-rojo: red;
+$color-naranja: orange;
+$color-amarillo: yellow;
+
+* {
+  text-decoration: none;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  h1 {
+    background-color: $color-azul;
+  }
+  span + h3 {
+    background-color: $color-rojo;
+  }
+
+  a,
+  .fondoamarillo {
+    background-color: $color-amarillo;
+  }
+
+  span.cursiva {
+    font-style: italic;
+    color: $color-azul;
+  }
+
+  table {
+    
+    tr:nth-child(1) {
+      font-weight: bold;
+    }
+
+    a[target="_self"] {
+      color: $color-rojo;
+      text-decoration: underline;
+    }
+  }
+}

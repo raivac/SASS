@@ -1,0 +1,30 @@
+* {
+  text-decoration: none;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+body h1 {
+  background-color: blue;
+}
+body span + h3 {
+  background-color: red;
+}
+body a,
+body .fondoamarillo {
+  background-color: yellow;
+}
+body span.cursiva {
+  font-style: italic;
+  color: blue;
+}
+body table tr:nth-child(1) {
+  font-weight: bold;
+}
+body table a[target=_self] {
+  color: red;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style_4.css.map */

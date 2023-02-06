@@ -1,0 +1,64 @@
+//colores
+$color-azul: blue;
+$color-rosa: pink;
+$color-gris: grey;
+$color-rojo: red;
+$color-naranja: orange;
+$color-verde: green;
+$color-amarillo: yellow;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+
+  a {
+    text-decoration: none;
+    color: $color-azul;
+  }
+  
+  h2 {
+    background-color: $color-rosa;
+  }
+
+  div {
+    h1,
+    h2 {
+      background-color: $color-rojo;
+    }
+  }
+
+  .fondoresaltado {
+    background-color: $color-amarillo;
+  }
+
+  a.fondoresaltado {
+    background-color: $color-naranja;
+  }
+
+  a:not(.fondoresaltado) {
+    background-color: $color-verde;
+  }
+
+  span.cursiva {
+    font-style: italic;
+  }
+
+  table {
+    tr:nth-child(2) {
+      font-weight: bold;
+    }
+    a[target] {
+      color: $color-rojo;
+      text-decoration: underline;
+    }
+  }
+
+  em + a {
+    color: $color-gris;
+    font-style: italic;
+  }
+}
