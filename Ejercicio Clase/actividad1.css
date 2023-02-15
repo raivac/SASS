@@ -1,0 +1,41 @@
+header {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-repeat: no-repeat;
+  background-image: url("./img/f1.png");
+}
+header section {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+header section * {
+  display: inline-block;
+  background-color: #535353;
+}
+header section h1 {
+  font-family: Arial;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+nav ul li a {
+  font-family: Georgia;
+  font-weight: bold;
+  display: block;
+  color: #f9f9f9;
+  background-color: #535353;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+nav ul li a:hover {
+  color: #535353;
+  background-color: #f9f9f9;
+}/*# sourceMappingURL=actividad1.css.map */

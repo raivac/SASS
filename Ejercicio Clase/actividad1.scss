@@ -1,0 +1,52 @@
+$color-gris: #535353;
+$color-blanco: #f9f9f9;
+$espacio: 0.5rem;
+
+header {
+    margin: $espacio;
+    padding: $espacio;
+    background: {
+        repeat: no-repeat;
+        image:url("./img/f1.png");
+    }
+    section {
+        margin: $espacio;
+        padding: $espacio;
+        *{
+            display: inline-block;
+            background-color: $color-gris;
+        }
+        h1{
+            font: {
+                family: Arial;
+                size: 1.2rem;
+                style: italic;
+            }
+        }
+    }
+}
+nav ul{
+    list-style: none;
+    li{
+        text: {
+            align: center;
+            decoration: none;
+        }
+        display: inline-block;
+        a{
+            font: {
+                family: Georgia;
+                weight: bold;
+            }
+            display: block;
+            color:  $color-blanco;
+            background-color: $color-gris;
+            margin: $espacio;
+            padding:$espacio;
+            &:hover{
+                color: $color-gris;
+                background-color: $color-blanco;
+            }
+        }
+    }
+}

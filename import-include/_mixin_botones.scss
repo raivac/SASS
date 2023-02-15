@@ -1,0 +1,14 @@
+@mixin  boton{/*sin parametros*/
+    border: 1px solid red;
+    background-color: grey;
+    font-weight: bold;
+}
+
+@mixin botoncolor($colorback,$colorborde: black,$fontwei: bold){
+
+    background-color: $colorback;
+
+    border: 1px solid $colorborde;
+
+    font-weight: $fontwei;
+}
