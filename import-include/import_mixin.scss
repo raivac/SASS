@@ -1,14 +1,43 @@
 @import "reset.scss";
 @import "mixin_botones.scss";
 
+$colorbase: rgb(46, 158, 46);
+
 a.buton-a {
   @include boton;
+  color: lighten($colorbase,20%);
 }
 
 a.buton-b {
   @include botoncolor(yellow, red, bolder);
+  color: darken($colorbase,20%);
 }
 
 a.buton-c {
   @include botoncolor(green);
+}
+
+div .cab2{
+    @include cabecera($padleft:0.3em,$letspac:0.2em);
+    @include transition(color 2s ease forwards);
+}
+
+/*EJEMPLO EXTENDS*/
+#not-deporte{
+    background-color: pink;
+    text-align: justify;
+    padding: 0.5rem;
+    h1{
+        font-size: 2rem;
+        color: red;
+        &:hover{
+            color: lime;
+        }
+    }
+
+}
+
+#not-econom{
+    @extend #not-deporte;
+    background-color: aquamarine;
 }

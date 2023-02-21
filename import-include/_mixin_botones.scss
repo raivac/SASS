@@ -1,14 +1,24 @@
-@mixin  boton{/*sin parametros*/
-    border: 1px solid red;
-    background-color: grey;
-    font-weight: bold;
+@mixin boton {
+  /*sin parametros*/
+  border: 1px solid red;
+  background-color: grey;
+  font-weight: bold;
 }
 
-@mixin botoncolor($colorback,$colorborde: black,$fontwei: bold){
+@mixin botoncolor($colorback, $colorborde: black, $fontwei: bold) {
+  background-color: $colorback;
+  border: 1px solid $colorborde;
+  font-weight: $fontwei;
+}
 
-    background-color: $colorback;
+@mixin cabecera($fontsize: 1.5rem, $padleft: 0.5rem, $letspac: 0.2em) {
+  font-size: $fontsize;
+  padding-left: $padleft;
+  letter-spacing: $letspac;
+}
 
-    border: 1px solid $colorborde;
-
-    font-weight: $fontwei;
+@mixin transition($val...){
+  transition: $val;
+  -webkit-transition: $val;
+  -moz-transition: $val;
 }

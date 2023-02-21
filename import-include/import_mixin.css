@@ -29,16 +29,45 @@ a.buton-a {
   border: 1px solid red;
   background-color: grey;
   font-weight: bold;
+  color: #61d161;
 }
 
 a.buton-b {
   background-color: yellow;
   border: 1px solid red;
   font-weight: bolder;
+  color: #174f17;
 }
 
 a.buton-c {
   background-color: green;
   border: 1px solid black;
   font-weight: bold;
+}
+
+div .cab2 {
+  font-size: 1.5rem;
+  padding-left: 0.3em;
+  letter-spacing: 0.2em;
+  transition: color 2s ease forwards;
+  -webkit-transition: color 2s ease forwards;
+  -moz-transition: color 2s ease forwards;
+}
+
+/*EJEMPLO EXTENDS*/
+#not-deporte, #not-econom {
+  background-color: pink;
+  text-align: justify;
+  padding: 0.5rem;
+}
+#not-deporte h1, #not-econom h1 {
+  font-size: 2rem;
+  color: red;
+}
+#not-deporte h1:hover, #not-econom h1:hover {
+  color: lime;
+}
+
+#not-econom {
+  background-color: aquamarine;
 }/*# sourceMappingURL=import_mixin.css.map */

@@ -1,0 +1,41 @@
+$color-naranja: #ff8000;
+$color-verde: #2e5f64;
+$padding: 20px;
+
+*{
+    margin: 0;padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+div{
+    padding: $padding;
+}
+
+div#primero{
+    p.destacado{
+        padding: 6px;
+        text-align: center;
+        font-size: 1.6rem;
+        color: $color-naranja;
+    }
+}
+
+div#segundo{
+    p.destacado{
+        padding: 5px;
+        text: {
+            align: left;
+            decoration:underline;
+        }
+        font-size: 1.4rem;
+        color: $color-verde;
+    }
+    p:not(p.destacado)::first-line{
+        font-style: italic;
+    }
+    div#parrafos{
+        text-align: right;
+    }
+}
+
